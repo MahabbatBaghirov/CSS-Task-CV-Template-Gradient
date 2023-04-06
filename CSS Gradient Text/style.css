@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#grad1 {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(239,245,244);
+    background: rgb(252,165,4);
+    background: linear-gradient(90deg, rgba(252,165,4,1) 0%, rgba(211,46,189,1) 40%, rgba(67,109,219,1) 81%, rgba(3,251,254,1) 100%);
+  }
+#grad1 h4{
+    color: white;
+    font-size: 85px;
+}

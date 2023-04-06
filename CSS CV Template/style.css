@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+header h1 {
+    font-size: 55px;
+    font-weight: 200;
+}
+header h3 {
+    font-size: 20px;
+    font-weight: 200;
+}
+header h5 {
+    font-weight: 400;
+}
+main {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+main aside {
+    width: 50%%;
+    height: 990px;
+}
+main aside .card {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-left: 3px dotted rgb(210,210,210);
+    padding-left: 8px;
+}
+main aside .card h1 {
+    color: rgb(141,169,181);
+    font-weight: 300;
+    font-family: Poppins;
+}
+main aside .card .text h3,p {
+    font-family: Poppins;
+    color: rgb(106,106,106);
+}
+main aside .card .text h4 {
+    font-family: Poppins;
+    color: rgb(106,106,106);
+}
+main aside .card .texttwo {
+    width: 300px;
+    height: 72px;
+    display: inline;
+}
+main aside .card .texttwo p {
+    font-family: Poppins;
+}
